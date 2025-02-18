@@ -33,7 +33,7 @@ const WhatIs = () => {
               }}
             >
               <img
-                src="/buzz.gif"
+                src="https://nikolanb1.github.io/shady_hippo/buzz.gif"
                 alt="shady hippo"
                 style={{ borderRadius: "20%", width: "400px" }}
               />

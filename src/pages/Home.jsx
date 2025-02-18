@@ -8,7 +8,7 @@ const Home = () => {
       <Header />
       <img
         style={{ paddingTop: "60px" }}
-        src="/shady_hippo.png"
+        src="https://nikolanb1.github.io/shady_hippo/shady_hippo.png"
         alt="shady hippo"
       />
       <WhatIs />

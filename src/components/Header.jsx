@@ -8,7 +8,10 @@ const Header = () => {
       <span className="header_inner">
         <a href="/" style={{ textDecoration: "none" }}>
           <div className="logo navbar_brand">
-            <img src="/hippo_background.jpg" alt="shady_hippo" />
+            <img
+              src="https://nikolanb1.github.io/shady_hippo/hippo_background.jpg"
+              alt="shady_hippo"
+            />
             <p>SHADY HIPPO</p>
           </div>
         </a>
