@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <Header />
       <img
-        style={{ paddingTop: "60px" }}
+        className="top_img"
         src="https://nikolanb1.github.io/shady_hippo/shady_hippo.png"
         alt="shady hippo"
       />

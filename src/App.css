@@ -86,6 +86,16 @@ img {
   margin: 0 15px;
 }
 
+.top_img {
+  padding-top: 60px;
+}
+
+@media (max-width: 420px) {
+  .top_img {
+    padding-top: 74px;
+  }
+}
+
 @media (min-width: 1400px) {
   .what_content {
     position: inherit;

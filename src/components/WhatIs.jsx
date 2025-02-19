@@ -1,7 +1,7 @@
 const WhatIs = () => {
   return (
-    <div className="what_is pt-5">
-      <div className="container p-5">
+    <div className="what_is">
+      <div className="container p-3">
         <div className="row">
           <div className="col-md-6">
             <div className="what_content ">
