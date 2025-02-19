@@ -6,11 +6,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <img
-        className="top_img"
-        src="https://nikolanb1.github.io/shady_hippo/shady_hippo.png"
-        alt="shady hippo"
-      />
+      <img className="top_img" src="/shady_hippo.png" alt="shady hippo" />
       <WhatIs />
       <Footer />
     </>
