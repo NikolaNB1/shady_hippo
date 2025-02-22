@@ -1,12 +1,21 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import "@fontsource/montserrat";
 import "@fontsource/montserrat/400.css";
 import "@fontsource/montserrat/400-italic.css";
 import NotFound from "./components/NotFound";
+import { useEffect } from "react";
 
 function App() {
+  const currentLocation = useLocation();
+
+  useEffect(() => {
+    if (!window.location.hash) {
+      window.location.hash = currentLocation.pathname;
+    }
+  }, [currentLocation]);
+
   return (
     <div className="App">
       <Routes>
