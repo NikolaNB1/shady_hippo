@@ -1,8 +1,14 @@
 import XIcon from "@mui/icons-material/X";
 import TelegramIcon from "@mui/icons-material/Telegram";
-import InstagramIcon from "@mui/icons-material/Instagram";
 
 const Header = () => {
+  const scrollToBuySection = () => {
+    const section = document.getElementById("buy_section");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="header">
       <span className="header_inner">
@@ -44,18 +50,9 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="/">
-                  <InstagramIcon
-                    sx={{
-                      transition: "transform 0.3s ease, color 0.3s ease",
-                      color: "#6f42c1",
-                      "&:hover": {
-                        transform: "scale(1.2) rotate(10deg)",
-                        color: "white",
-                      },
-                    }}
-                  />
-                </a>
+                <button onClick={scrollToBuySection} className="buy_button p-2">
+                  Buy now
+                </button>
               </li>
             </ul>
           </div>
